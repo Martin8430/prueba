@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Manchop</title>
+</head>
+
+<body class="grad4 ">
+  <header>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header nav-head">
+          <!--menu hamburguesa-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img src="../assets/images/logo2.PNG" alt="logo-menu">
+          </a>
+          <h2 class="text-center subtitle-h2">Manchop</h2>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse ne" id="navbar-menu">
+          <!--se posciona al lado derecho en desktop-->
+          <ul class="nav navbar-nav navbar-right center-ul">
+            <li>
+              <a href="#">Quienes somos</a>
+            </li>
+            <li>
+              <a href="#">Oficios</a>
+            </li>
+            <li>
+              <a href="search-service.html">Clientes</a>
+            </li>
+            <li>
+              <a href="#">Help</a>
+            </li>
+            <li>
+              <a href="register.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="section-profile">
+    <div class="container vh100 container-flex-column">
+      <div class="row">
+        <div class="col-xs-12 col-md-5">
+          <div class="img-profile">
+            <i class="fa fa-user-circle-o fa-3x" id="user" aria-hidden="true"></i>
+            <img id="imagen" class="img-responsive img-circle">
+          </div>
+          <div class="col-xs-12">
+            <form id="file-submit" enctype="multipart/form-data">
+              <!-- seleccionar archivo -->
+              <input id="file" type="file" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <hr>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6">
+          <ul>
+            <li><a href="#">¿Quienes Somos?</a></li>
+            <li><a href="#">Help</a></li>
+						<li><a href="#">Prensa</a></li>
+						<li><a href="#">Videos</a></li>
+						<li><a href="#">Eventos</a></li>
+						<li><a href="#">Blogs</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6">
+					<ul class="icon-footer">
+            <i class="fa fa-facebook " aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-apple" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa fa-play" aria-hidden="true"></i>
+          </ul>
+          <figure>
+              <img src="../assets/images/app-store.png" alt="appstore" class="img-responsive">
+              <br>
+              <img src="../assets/images/google-play.png" alt="googleplay" class="img-responsive">
+          </figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 text-center icon">
+          <hr>
+          <address> © 2021 Social Red Manchop </address>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+  <!-- donde se colocaran las estrellas -->
+  <script src="../vendors/js/jquery-3.2.1.min.js"></script>
+  <script src="../vendors/raty-2.8.0/jquery.raty.js"></script>
+  <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../js/data.js"></script>
+  <script src="../js/profile-client.js"></script>
+</body>
+
+</html>
